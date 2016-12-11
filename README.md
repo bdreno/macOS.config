@@ -9,20 +9,21 @@ Resources to configure a new macOS workstation
 * Install Xcode from MAS
 
 ## Homebrew Configuration
-Homebrew Installs much of the CLI, Direct Download & MAS Applications I use. Application registration is stored in 1password, which is synced via iCloud and installed via Homebrew Bundler.
+Homebrew Installs much of the CLI, Direct Download & MAS Applications I use. Application registration is stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
 
 * Configure Xcode
     * xcode-select --install
-    * sudo xcodebuild -license `
+    * sudo xcodebuild -license
 * Install Homebrew http://brew.sh
 * Download this repository
     * git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config
     * ~/Programming/macOS.config will be the base directory from now on
-* run Brewfile 
+* Homebrew Bundler
     * cd ~/Programming/macOS.config
     * brew bundle
-* Homebrew Bundler: only if brew bundle did not autoinstall
-    * brew tap Homebrew/bundle 
+    * If brew bundle did not autoinstall Bundler then,
+        * brew tap Homebrew/bundle 
+        * brew bundle
 * Enable CLI Services
     * brew services start clipper
     * brew services start dbus
