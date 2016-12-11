@@ -1,11 +1,31 @@
 # macOS.config
 Resources to configure a new macOS workstation
 
-
 ## Initial System Configuration
 * Enable FileVault
 * Enable iCloud
 * Enable Document & Data Sync
+* Log into MAS
+* Install Xcode from MAS
+
+## Homebrew Configuration
+Homebrew Installs much of the CLI, Direct Download & MAS Applications I use. Application registration is stored in 1password, which is synced via iCloud and installed via Homebrew Bundler.
+
+* Configure Xcode
+    * xcode-select --install
+    * sudo xcodebuild -license `
+* Install Homebrew http://brew.sh
+* Download this repository
+    * git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config
+    * ~/Programming/macOS.config will be the base directory from now on
+* run Brewfile 
+    * cd ~/Programming/macOS.config
+    * brew bundle
+* Homebrew Bundler: only if brew bundle did not autoinstall
+    * brew tap Homebrew/bundle 
+* Enable CLI Services
+    * brew services start clipper
+    * brew services start dbus
 
 ## Apps to always install from macOS App Store:
 * 1Password
@@ -75,16 +95,6 @@ Resources to configure a new macOS workstation
 * TextExpander https://smilesoftware.com/textexpander/download_thanks.html?url=http://cdn.smilesoftware.com/TextExpander_4.3.7.zip
 * Transmit https://panic.com/transmit/
 
-## Command Line Stuff
-* Configure Xcode `xcode-select --install ; sudo xcodebuild -license `
-* Homebrew http://brew.sh
-* Install XQuartz brew install Caskroom/cask/xquartz
-* Get Brewfile
-* run Brewfile `cd /path/to/Brewfiles/Directory ; brew bundle`
-* Homebrew Bundler: brew tap Homebrew/bundle (only if brew bundle did not autoinstall)
-* Enable CLI Services
-brew services start clipper
-brew services start dbus
 
 * CloudApp
 * Rocket http://matthewpalmer.net/rocket
