@@ -27,7 +27,6 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
     * If `brew bundle` did not autoinstall Bundler
         * `brew tap Homebrew/bundle`
         * `brew bundle`
-        ~~~~
 * Enable Services
     * `brew services start clipper`
     * `brew services start dbus`
