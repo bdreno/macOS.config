@@ -3,10 +3,12 @@ Resources to configure a new macOS workstation
 
 ## Initial System Configuration
 * Enable FileVault
+    * Save Key to 1Password
 * Enable iCloud
 * Enable Document & Data Sync
 * Log into MAS
 * Install Xcode from MAS
+* Install the latest JDK
 
 ## Homebrew Configuration
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
@@ -36,69 +38,12 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
         brew tap Homebrew/bundle 
         brew bundle
         ~~~~
-* Enable CLI Services
+* Enable Services
     * 
     ~~~~
     brew services start clipper
     brew services start dbus
     ~~~~
-
-## Apps to always install from macOS App Store:
-* 1Password
-* Slack
-* Keynote/Pages/Numbers
-* Xcode
-* 1Blocker
-* Fantastical
-* Magnet
-* Veertu
-* Day One
-* Deliveries
-* PGPTools
-* iThoughtsX
-* Toad
-* JSON Query
-* Pathology
-* Patterns
-* RESTed
-* PopClip
-* Pushbullet
-* Desk PM
-* Next
-* Transmit
-* Airmail
-* BetterSnapTool
-* Twitterific
-* Reeder
-* Soulver
-* Keka
-* Microsoft Remote Desktop
-* Apple Remote Desktop
-* Oyster
-* Skitch
-* Evernote
-* Kindle
-
-
-
-## Apps to install from macOS App Store as needed:
-* Pixa
-* Fluid Browser
-* Mac Family Tree
-* Do
-* Paw
-* Filebot
-* Ember
-* Pixelmator
-* App Factory
-* DropZone 3 (Run then delete to enable license for Direct Download version)
-* WiFi Explorer
-* Paprika
-* Fake
-* Gemini
-* Audit Explorer
-* Home Inventory
-* AudioBook Builder
 
 
 ## Apps installed directly from the internet:
@@ -107,7 +52,6 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 * OmniOutliner
 * OmniGraffle
 * OmniSync
-* Java Development Kit 
 * TextExpander https://smilesoftware.com/textexpander/download_thanks.html?url=http://cdn.smilesoftware.com/TextExpander_4.3.7.zip
 * Transmit https://panic.com/transmit/
 
