@@ -31,9 +31,9 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
         * `cd ~/Programming/macOS.config`
         * `brew tap Homebrew/bundle`
         * `brew bundle`
-* Enable Primary Homebrew Bundler Services
-    * `brew services start clipper`
-    * `brew services start dbus`
+    * Enable Primary Homebrew Bundler Services
+        * `brew services start clipper`
+        * `brew services start dbus`
 
 
 ## Apps installed directly from the internet:
