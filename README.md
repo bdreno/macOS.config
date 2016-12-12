@@ -16,10 +16,10 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 
 * Configure Xcode
     * 
-~~~~
+	~~~~
 	xcode-select --install
 	sudo xcodebuild -license
-~~~~
+	~~~~
 * Install Homebrew http://brew.sh
 * Download this repository
     * 
