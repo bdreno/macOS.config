@@ -26,7 +26,7 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
     ~~~~
     git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config
     ~~~~
-    * ~/Programming/macOS.config will be the base directory from now on
+    * `~/Programming/macOS.config` will be the base directory from now on
 * Homebrew Bundler
     * Paste these commands
     ~~~~
