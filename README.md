@@ -17,11 +17,10 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 * Configure Xcode
     * `xcode-select --install`
     * `sudo xcodebuild -license`
-* Install ["Home brew"](http://brew.sh)
+* Install ["Home brew"](http://brew.sh).
         * Test
         * `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
         * Convert this to git...
-
 * Download this repository
     * `git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config`
     * `~/Programming/macOS.config` will be the base directory from now on
