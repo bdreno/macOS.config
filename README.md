@@ -12,13 +12,15 @@ Resources to configure a new macOS workstation
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
 
 * Configure Xcode
-    * ~~~~
+    * 
+    ~~~~
 	xcode-select --install
 	sudo xcodebuild -license
 	~~~~
 * Install Homebrew http://brew.sh
 * Download this repository
-    * ~~~~
+    * 
+    ~~~~
     git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config
     ~~~~
     * ~/Programming/macOS.config will be the base directory from now on
@@ -29,12 +31,14 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
     brew bundle
     ~~~~
     * If brew bundle did not autoinstall Bundler then,
-        * ~~~~
+        * 
+        ~~~~
         brew tap Homebrew/bundle 
         brew bundle
         ~~~~
 * Enable CLI Services
-    * ~~~~
+    * 
+    ~~~~
     brew services start clipper
     brew services start dbus
     ~~~~
