@@ -33,7 +33,7 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
     cd ~/Programming/macOS.config
     brew bundle
     ~~~~
-    * If brew bundle did not autoinstall Bundler then,
+    * If `brew bundle` did not autoinstall Bundler
         * Paste these commands
         ~~~~
         brew tap Homebrew/bundle 
