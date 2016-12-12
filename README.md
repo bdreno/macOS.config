@@ -3,6 +3,7 @@ Resources to configure a new macOS workstation
 
 ## Initial System Configuration
 * Enable FileVault
+    * Do not escrow with iCloud
     * Save Key to 1Password
 * Enable iCloud
 * Enable Document & Data Sync
