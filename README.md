@@ -33,11 +33,6 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 
 
 ## Apps installed directly from the internet:
-* OmniFocus
-* OmniPlan
-* OmniOutliner
-* OmniGraffle
-* OmniSync
 * TextExpander https://smilesoftware.com/textexpander/download_thanks.html?url=http://cdn.smilesoftware.com/TextExpander_4.3.7.zip
 
 
