@@ -555,8 +555,8 @@ cask 'steam'
 cask 'openemu'
 cask 'minecraft'
 mas 'Transistor',id: 927617634
-mas 'Baldur's Gate - Enhanced Edition',id: 568196938
-mas 'Baldur's Gate II - Enhanced Edition',id: 746413884
+mas 'Baldur\'s Gate - Enhanced Edition',id: 568196938
+mas 'Baldur\'s Gate II - Enhanced Edition',id: 746413884
 
 ##########################################################################################
 ### Virtualization, Emulation, & Compatibility Layers
