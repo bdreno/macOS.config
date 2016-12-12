@@ -1,9 +1,9 @@
 # macOS.config
-Resources to configure a new macOS workstation
+How I configure new macOS workstations
 
 ## Initial System Configuration
 * Enable FileVault
-    * Do not escrow with iCloud
+    * Do not escrow key with iCloud
     * Save Key to 1Password
 * Enable iCloud
 * Enable Document & Data Sync
@@ -15,8 +15,7 @@ Resources to configure a new macOS workstation
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
 
 * Configure Xcode
-    * 
-    ~~~~
+    *    ~~~~
 	xcode-select --install
 	sudo xcodebuild -license
 	~~~~
