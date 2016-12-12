@@ -23,7 +23,7 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 * Download this repository
     * `git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config`
     * `~/Programming/macOS.config` will be the base directory from now on
-* Homebrew Bundler
+* Primary Homebrew Bundler Installation
     * This will install universal Applications as defined in `~/Programming/macOS.config/Brewfile`
     * `cd ~/Programming/macOS.config`
     * `brew bundle`
@@ -31,7 +31,7 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
         * `cd ~/Programming/macOS.config`
         * `brew tap Homebrew/bundle`
         * `brew bundle`
-* Enable Services
+* Enable Primary Homebrew Bundler Services
     * `brew services start clipper`
     * `brew services start dbus`
 
