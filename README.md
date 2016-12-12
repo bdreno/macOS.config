@@ -17,7 +17,7 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 * Configure Xcode
     * `xcode-select --install`
     * `sudo xcodebuild -license`
-* Install ["Home brew"]("http://brew.sh") from source.
+* Install ["Home brew"](http://brew.sh) from source.
 		* `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
         * Convert this to git...
 * Download this repository
