@@ -1,5 +1,5 @@
 # macOS.config
-How I configure new macOS workstations
+How I configure new macOS workstations...
 
 ## Initial System Configuration
 * Enable FileVault
@@ -9,7 +9,7 @@ How I configure new macOS workstations
 * Enable Document & Data Sync
 * Log into MAS
 * Install Xcode from MAS
-* Install the latest JDK
+* Install the latest [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 
 ## Homebrew Configuration
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
