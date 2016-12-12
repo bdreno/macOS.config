@@ -15,10 +15,11 @@ How I configure new macOS workstations
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
 
 * Configure Xcode
-    * ~~~~
+    * 
+~~~~
 	xcode-select --install
 	sudo xcodebuild -license
-	~~~~
+~~~~
 * Install Homebrew http://brew.sh
 * Download this repository
     * 
