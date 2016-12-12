@@ -12,12 +12,12 @@ How I configure new macOS workstations...
 * Install the latest [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
 
 ## Homebrew Configuration
-Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License & registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
+Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License and registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
 
 * Configure Xcode
     * `xcode-select --install`
     * `sudo xcodebuild -license`
-* Install ["Home brew"](http://brew.sh) from source.   
+* Install ["Home brew"](http://brew.sh) from source   
 		* `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
         * Convert this to git...
 * Download this repository
