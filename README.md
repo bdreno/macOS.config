@@ -22,25 +22,25 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
 	~~~~
 * Install Homebrew http://brew.sh
 * Download this repository
-    * 
+    * Paste these commands
     ~~~~
     git clone https://github.com/uisge-beatha/macOS.config.git ~/Programming/macOS.config
     ~~~~
     * ~/Programming/macOS.config will be the base directory from now on
 * Homebrew Bundler
-    * 
+    * Paste these commands
     ~~~~
     cd ~/Programming/macOS.config
     brew bundle
     ~~~~
     * If brew bundle did not autoinstall Bundler then,
-        * 
+        * Paste these commands
         ~~~~
         brew tap Homebrew/bundle 
         brew bundle
         ~~~~
 * Enable Services
-    * 
+    * Paste these commands
     ~~~~
     brew services start clipper
     brew services start dbus
