@@ -5,7 +5,7 @@
 
 ###MAS Applications
 
-The command below, while not elegant, generates the mas commands that can be pasted directly into a Brewfile
+The command below, while not elegant, generates the mas commands that can be pasted directly into a Brewfile:
 
 ~~~~
 mas list | sed -e 's/([^()]*)//g' | sed -e 's/[ \t]*$//g' | \
