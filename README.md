@@ -27,10 +27,10 @@ Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use
     * This will install universal Applications as defined in `~/Programming/macOS.config/Brewfile`
     * `cd ~/Programming/macOS.config`
     * `brew bundle`
-    * If `brew bundle` did not automatically install Bundler
-        * `cd ~/Programming/macOS.config`
-        * `brew tap Homebrew/bundle`
-        * `brew bundle`
+        * If `brew bundle` did not automatically install Bundler
+            * `cd ~/Programming/macOS.config`
+            * `brew tap Homebrew/bundle`
+            * `brew bundle`
     * Enable Primary Homebrew Bundler Services
         * `brew services start clipper`
         * `brew services start dbus`
