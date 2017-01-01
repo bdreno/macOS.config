@@ -539,6 +539,13 @@ brew 'psutils'
 brew 'texi2html'
 brew 'utf8proc'
 brew 'xmlstarlet'
+brew 'pandoc'
+cask 'mactex'
+brew 'latex2rtf'
+brew 'latexml'
+brew 'rtf2latex2e'
+brew 'git-latexdiff'
+brew 'latex-mk'
 
 ##########################################################################################
 ### tmux & x11 utilities
