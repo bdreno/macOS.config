@@ -65,7 +65,7 @@ brew 'pyenv-virtualenv'
 ### Coding: Lua
 ##########################################################################################
 brew 'lua'
-brew 'homebrew/boneyard/luarocks'
+#brew 'homebrew/boneyard/luarocks'
 
 ##########################################################################################
 ### Coding: Ruby
@@ -139,7 +139,7 @@ brew 'dialog'
 ##########################################################################################
 ### Communication
 ##########################################################################################
-cask 'slack'
+#cask 'slack'
 
 ##########################################################################################
 ### Data Science
@@ -229,8 +229,8 @@ brew 'pigz'
 brew 'unrar'
 brew 'rename'
 brew 'snappy'
-brew 'homebrew/dupes/gzip'
-brew 'homebrew/dupes/unzip'
+brew 'gzip'
+brew 'unzip'
 brew 'tag'
 mas 'Keka',id: 470158793
 mas 'StuffIt Expander 16',id: 919269455
@@ -294,7 +294,7 @@ brew 'jpeg'
 brew 'mjpegtools'
 cask 'gimp'
 #cask 'graphviz'
-cask 'lisanet-gimp'
+#cask 'lisanet-gimp'
 brew 'imagemagick'
 brew 'imagesnap'
 brew 'gd'
@@ -428,7 +428,7 @@ cask 'citrix-receiver'
 ### Security
 ##########################################################################################
 brew 'openssl'
-brew 'apg'
+#brew 'apg'
 brew 'chkrootkit'
 brew 'dirmngr'
 brew 'gpg-agent'
