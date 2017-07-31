@@ -27,12 +27,10 @@ cask 'firefox'
 #cask 'aviator'
 cask 'google-chrome'
 cask 'torbrowser'
-cask 'multifirefox'
 cask 'omniweb'
 cask 'google-earth-pro'
 cask 'google-earth-web-plugin'
 cask 'google-hangouts'
-#cask 'flash-player'
 cask 'vivaldi'
 brew 'lynx'
 brew 'w3m'
@@ -41,7 +39,6 @@ mas 'Fluid Browser',id: 1077036385
 ##########################################################################################
 ### Chat & Communication
 ##########################################################################################
-cask 'adium'
 brew 'minicom'
 mas 'Slack',id: 803453959
 mas 'Pushbullet',id: 948415170
@@ -57,26 +54,41 @@ brew 'mercurial'
 cask 'sourcetree'
 
 ##########################################################################################
-### Coding: Programming Languages
+### Coding: Python
 ##########################################################################################
 brew 'pyenv-virtualenv'
 brew 'pyenv'
 brew 'python'
 brew 'python3'
 brew 'python3'
-brew 'rbenv'
-brew 'ruby-build'
-brew 'lua'
-brew 'go'
-brew 'erlang'
-brew 'elixir'
-brew 'node'
-brew 's-lang'
 
 ##########################################################################################
-### Coding: Programming Language Package Managers
+### Coding: Lua
 ##########################################################################################
+brew 'lua'
 brew 'homebrew/boneyard/luarocks'
+
+##########################################################################################
+### Coding: Ruby
+##########################################################################################
+brew 'rbenv'
+brew 'ruby-build'
+
+##########################################################################################
+### Coding: Go
+##########################################################################################
+brew 'go'
+
+##########################################################################################
+### Coding: Node.js
+##########################################################################################
+brew 'node'
+
+##########################################################################################
+### Coding: Erlang
+##########################################################################################
+brew 'erlang'
+brew 'elixir'
 
 ##########################################################################################
 ### API design & testing
@@ -134,6 +146,7 @@ cask 'slack'
 ### Data Science
 ##########################################################################################
 cask 'rstudio'
+brew 's-lang'
 brew 'pig'
 
 ##########################################################################################
@@ -145,8 +158,8 @@ cask 'sequel-pro'
 brew 'sqlite'
 #brew 'mysql'
 #brew 'postgresql'
-brew 'redis'
-brew 'rrdtool', args: ['with-lua']
+#brew 'redis'
+#brew 'rrdtool', args: ['with-lua']
 mas 'Toad',id: 747961939
 
 ##########################################################################################
@@ -223,7 +236,7 @@ brew 'tag'
 mas 'Keka',id: 470158793
 mas 'StuffIt Expander 16',id: 919269455
 mas 'The Unarchiver',id: 425424353
-mas 'Gemini',id: 463541543
+#mas 'Gemini',id: 463541543
 
 ##########################################################################################
 ### File System Navigation
@@ -325,44 +338,6 @@ cask 'postbox'
 cask 'mplayer-osx-extended'
 cask 'vlc'
 cask 'mplayerx'
-
-##########################################################################################
-### Media Utilities
-##########################################################################################
-## Media Libraries
-brew 'libass'
-brew 'libdca'
-brew 'libsamplerate'
-brew 'libvo-aacenc'
-brew 'libvorbis'
-brew 'libvpx'
-## Codecs
-brew 'x264'
-brew 'xvid'
-brew 'fdk-aac'
-brew 'faac'
-brew 'faad2'
-brew 'flac'
-brew 'lame'
-brew 'mp4v2'
-brew 'opencore-amr'
-brew 'opus'
-brew 'theora'
-## Video
-cask 'mkvtools'
-mas 'Final Cut Pro',id: 424389933
-mas 'Motion',id: 434290957
-mas 'Compressor',id: 424390742
-mas 'iMovie',id: 408981434
-#brew 'ffmpeg'
-#brew 'ffmpegthumbnailer'
-## Audio 
-brew 'aften'
-mas 'Audiobook Builder',id: 406226796
-mas 'GarageBand',id: 682658836
-#cask 'audacity'
-## Metadata
-mas 'FileBot',id: 905384638
 
 ##########################################################################################
 ### NAS Related Tools
@@ -484,11 +459,6 @@ brew 'bash-completion'
 brew 'shtool'
 brew 'itermocil'
 
-##########################################################################################
-### Social
-##########################################################################################
-mas 'Twitterrific',id: 414957465
-mas 'Tumblr',id: 929285034
 
 ##########################################################################################
 ### Sync & Remote File Access
@@ -555,15 +525,6 @@ brew 'clipper'
 brew 'fontconfig'
 brew 'freetype'
 
-##########################################################################################
-### Video Games
-##########################################################################################
-cask 'steam'
-cask 'openemu'
-cask 'minecraft'
-mas 'Transistor',id: 927617634
-mas 'Baldur\'s Gate - Enhanced Edition',id: 568196938
-mas 'Baldur\'s Gate II - Enhanced Edition',id: 746413884
 
 ##########################################################################################
 ### Virtualization, Emulation, & Compatibility Layers

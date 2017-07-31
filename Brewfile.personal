@@ -1,0 +1,67 @@
+##########################################################################################
+### Prerequisites
+##########################################################################################
+tap 'caskroom/cask'
+tap 'homebrew/boneyard'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/dupes'
+tap 'josegonzalez/php'
+tap 'tomanthony/brews'
+brew 'mas'
+cask_args appdir: '/Applications'
+
+##########################################################################################
+### Video Games
+##########################################################################################
+cask 'steam'
+cask 'openemu'
+cask 'minecraft'
+mas 'Transistor',id: 927617634
+mas 'Baldur\'s Gate - Enhanced Edition',id: 568196938
+mas 'Baldur\'s Gate II - Enhanced Edition',id: 746413884
+
+##########################################################################################
+### Social
+##########################################################################################
+mas 'Twitterrific',id: 414957465
+mas 'Tumblr',id: 929285034
+
+##########################################################################################
+### Media Utilities
+##########################################################################################
+## Media Libraries
+brew 'libass'
+brew 'libdca'
+brew 'libsamplerate'
+brew 'libvo-aacenc'
+brew 'libvorbis'
+brew 'libvpx'
+## Codecs
+brew 'x264'
+brew 'xvid'
+brew 'fdk-aac'
+brew 'faac'
+brew 'faad2'
+brew 'flac'
+brew 'lame'
+brew 'mp4v2'
+brew 'opencore-amr'
+brew 'opus'
+brew 'theora'
+## Video
+cask 'mkvtools'
+mas 'Final Cut Pro',id: 424389933
+mas 'Motion',id: 434290957
+mas 'Compressor',id: 424390742
+mas 'iMovie',id: 408981434
+#brew 'ffmpeg'
+#brew 'ffmpegthumbnailer'
+## Audio 
+brew 'aften'
+mas 'Audiobook Builder',id: 406226796
+mas 'GarageBand',id: 682658836
+#cask 'audacity'
+## Metadata
+mas 'FileBot',id: 905384638
+
