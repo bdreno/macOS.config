@@ -341,7 +341,7 @@ cask 'mplayerx'
 ##########################################################################################
 ### NAS Related Tools
 ##########################################################################################
-cask 'synology-assistant'
+#cask 'synology-assistant'
 
 ##########################################################################################
 ### Network Utilities
@@ -413,7 +413,7 @@ mas 'Do',id: 1040329885
 brew 'autossh'
 brew 'csshx'
 brew 'shmux'
-brew 'homebrew/dupes/openssh'
+brew 'openssh'
 brew 'stormssh'
 brew 'stunnel'
 mas 'Microsoft Remote Desktop',id: 715768417
@@ -498,7 +498,7 @@ cask 'textexpander'
 ##########################################################################################
 brew 'bison'
 brew 'readline'
-brew 'homebrew/boneyard/rbenv-readline'
+#brew 'homebrew/boneyard/rbenv-readline'
 brew 'libreadline-java'
 brew 'with-readline'
 brew 'figlet'
@@ -513,16 +513,14 @@ cask 'mactex'
 brew 'latex2rtf'
 brew 'latexml'
 brew 'rtf2latex2e'
-brew 'git-latexdiff'
-brew 'latex-mk'
+#brew 'git-latexdiff'
+#brew 'latex-mk'
 
 ##########################################################################################
 ### tmux & x11 utilities
 ##########################################################################################
 brew 'tmux'
 brew 'clipper'
-brew 'fontconfig'
-brew 'freetype'
 
 
 ##########################################################################################
@@ -530,7 +528,7 @@ brew 'freetype'
 ##########################################################################################
 cask 'parallels-desktop'
 cask 'parallels-virtualization-sdk'
-mas 'Veertu 2016 Business',id: 1082458124
+#mas 'Veertu 2016 Business',id: 1082458124
 cask 'virtualbox'
 cask 'wineskin-winery'
 cask 'platypus'
@@ -553,11 +551,11 @@ brew 'gcc'
 brew 'gnupg'
 brew 'gnupg2'
 brew 'gnutls'
-brew 'homebrew/dupes/grep'
-brew 'homebrew/dupes/groff'
-brew 'homebrew/dupes/less'
-brew 'homebrew/dupes/libpcap'
-brew 'homebrew/dupes/xar'
+brew 'grep'
+brew 'groff'
+brew 'less'
+brew 'libpcap'
+#brew 'xar'
 
 ##########################################################################################
 ### Crap to sort through
