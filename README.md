@@ -9,7 +9,7 @@ How I configure new macOS workstations...
 * Enable Document & Data Sync
 * Log into MAS
 * Install Xcode from MAS
-* Install the latest [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
+* Install the latest [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 ## Homebrew Configuration
 Homebrew Installs most of the CLI, Direct Download & MAS Applications that I use. License and registration details are stored in 1Password, which is synced via iCloud and installed via Homebrew Bundler.
