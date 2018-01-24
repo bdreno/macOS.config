@@ -1,0 +1,73 @@
+Before using aws-cli, you need to tell it about your AWS credentials.
+The quickest way to do this is to run:
+  aws configure
+
+More information:
+  https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+  https://pypi.python.org/pypi/awscli#getting-started
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+
+Man pages can be found in:
+  /usr/local/opt/erlang/lib/erlang/man
+
+Access them with `erl -man`, or add this directory to MANPATH.
+
+
+As of go 1.2, a valid GOPATH is required to use the `go get` command:
+  https://golang.org/doc/code.html#GOPATH
+
+You may wish to add the GOROOT-based install location to your PATH:
+  export PATH=$PATH:/usr/local/opt/go/libexec/bin
+
+
+Error: The `brew link` step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+Could not symlink share/man/de/man1/nmap.1
+/usr/local/share/man/de/man1 is not writable.
+
+You can try again using:
+  brew link nmap
+
+
+To use Homebrew's directories rather than ~/.pyenv add to your profile:
+  export PYENV_ROOT=/usr/local/var/pyenv
+
+To enable shims and autocompletion add to your profile:
+  if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+
+Pip, setuptools, and wheel have been installed. To update them
+  pip3 install --upgrade pip setuptools wheel
+
+You can install Python packages with
+  pip3 install <package>
+
+They will install into the site-package directory
+  /usr/local/lib/python3.6/site-packages
+
+See: https://github.com/Homebrew/brew/blob/master/docs/Homebrew-and-Python.md
+
+.app bundles were installed.
+Run `brew linkapps python3` to symlink these to /Applications.
+
+
+Run `brew linkapps qt5` to symlink these to /Applications.
+
+
+
+To use post-processing options, `brew install ffmpeg` or `brew install libav`.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+zsh completion has been installed to:
+  /usr/local/share/zsh/site-functions
+
+fish completion has been installed to:
+  /usr/local/share/fish/vendor_completions.d
+ 
