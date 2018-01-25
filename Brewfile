@@ -25,6 +25,7 @@ brew 'minicom'
 ### Coding: Version Management
 ##########################################################################################
 brew 'git'
+brew 'git-secret'
 brew 'gws'
 brew 'gdbm', args: ['with-libgdbm-compat']
 brew 'mercurial'
@@ -53,6 +54,7 @@ brew 'ruby-build'
 ### Coding: Go
 ##########################################################################################
 brew 'go'
+brew 'gimmie'
 
 ##########################################################################################
 ### Coding: Node.js
@@ -64,7 +66,6 @@ brew 'node'
 ##########################################################################################
 brew 'erlang'
 brew 'elixir'
-
 
 ##########################################################################################
 ### Coding: Build Utilities
@@ -283,6 +284,7 @@ brew 'fish'
 brew 'mobile-shell'
 brew 'zsh'
 brew 'antigen'
+brew 'z'
 
 ##########################################################################################
 ### Shell Tools
@@ -290,6 +292,15 @@ brew 'antigen'
 brew 'bash-completion'
 brew 'shtool'
 brew 'itermocil'
+brew 'direnv'
+brew 'googler'
+brew 'nnn'
+brew 'slugify'
+brew 'spark'
+brew 'sshfs'
+brew 'sshrc'
+brew 'thefuck'
+brew 'tldr'
 
 
 ##########################################################################################
@@ -330,6 +341,7 @@ brew 'rtf2latex2e'
 ##########################################################################################
 brew 'tmux'
 brew 'clipper'
+brew 'wemux'
 
 ##########################################################################################
 ### Website Design
@@ -353,6 +365,7 @@ brew 'groff'
 brew 'less'
 brew 'libpcap'
 #brew 'xar'
+brew 'coreutils'
 
 ##########################################################################################
 ### Crap to sort through

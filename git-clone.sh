@@ -6,7 +6,9 @@ pip3 install --upgrade pip setuptools
 pip2 install powerline-status
 pip3 install powerline-status
 
+pip install ImageScraper
 
+wget git.io/antigen-nightly -O ~/antigen.zsh
 
 #git clone git@github.com:herrbischoff/awesome-macos-command-line.git ~/Programming/Reference/awesome-macos-command-line
 
