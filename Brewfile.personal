@@ -8,18 +8,7 @@ tap 'homebrew/core'
 tap 'homebrew/dupes'
 tap 'josegonzalez/php'
 tap 'tomanthony/brews'
-brew 'mas'
-cask_args appdir: '/Applications'
 
-##########################################################################################
-### Video Games
-##########################################################################################
-cask 'steam'
-cask 'openemu'
-cask 'minecraft'
-mas 'Transistor',id: 927617634
-mas 'Baldur\'s Gate - Enhanced Edition',id: 568196938
-mas 'Baldur\'s Gate II - Enhanced Edition',id: 746413884
 
 ##########################################################################################
 ### Social
