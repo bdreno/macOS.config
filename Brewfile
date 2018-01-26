@@ -29,6 +29,8 @@ brew 'git-secret'
 brew 'gws'
 brew 'gdbm', args: ['with-libgdbm-compat']
 brew 'mercurial'
+brew 'git-flow'
+brew 'git-lfs'
 
 ##########################################################################################
 ### Coding: Python
