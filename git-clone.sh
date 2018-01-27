@@ -6,7 +6,8 @@ pip3 install --upgrade pip setuptools
 pip2 install powerline-status
 pip3 install powerline-status
 
-pip install ImageScraper
+pip install ImageScraper #stest
+pip instlal monkey
 
 wget git.io/antigen-nightly -O ~/antigen.zsh
 
