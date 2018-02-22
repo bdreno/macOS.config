@@ -165,6 +165,7 @@ brew 'snappy'
 brew 'gzip'
 brew 'unzip'
 brew 'tag'
+brew 'trash'
 
 ##########################################################################################
 ### File System Navigation
