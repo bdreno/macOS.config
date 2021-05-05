@@ -2,10 +2,10 @@
 ### Prerequisites
 ##########################################################################################
 tap 'caskroom/cask'
-tap 'homebrew/boneyard'
+#tap 'homebrew/boneyard'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
-tap 'homebrew/dupes'
+#tap 'homebrew/dupes'
 tap 'josegonzalez/php'
 tap 'tomanthony/brews'
 
@@ -13,32 +13,32 @@ tap 'tomanthony/brews'
 ##########################################################################################
 ### Browsers & Plug-ins
 ##########################################################################################
-brew 'lynx'
-brew 'w3m'
+#brew 'lynx'
+#brew 'w3m'
 
 ##########################################################################################
 ### Chat & Communication
 ##########################################################################################
-brew 'minicom'
+#brew 'minicom'
 
 ##########################################################################################
 ### Coding: Version Management
 ##########################################################################################
 brew 'git'
-brew 'git-secret'
+#brew 'git-secret'
 brew 'gws'
-brew 'gdbm', args: ['with-libgdbm-compat']
-brew 'mercurial'
+#brew 'gdbm', args: ['with-libgdbm-compat']
+#brew 'mercurial'
 brew 'git-flow'
 brew 'git-lfs'
 
 ##########################################################################################
 ### Coding: Python
 ##########################################################################################
+brew 'python3'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
-brew 'python'
-brew 'python3'
+#brew 'python'
 
 ##########################################################################################
 ### Coding: Lua
@@ -56,7 +56,7 @@ brew 'ruby-build'
 ### Coding: Go
 ##########################################################################################
 brew 'go'
-brew 'gimmie'
+#brew 'gimmie'
 
 ##########################################################################################
 ### Coding: Node.js
@@ -73,11 +73,11 @@ brew 'elixir'
 ### Coding: Build Utilities
 ##########################################################################################
 ## java
-brew 'ant'
+#brew 'ant'
 ## script
-brew 'autoconf'
-brew 'automake'
-brew 'cmake'
+#brew 'autoconf'
+#brew 'automake'
+#brew 'cmake'
 ## C related
 
 ##########################################################################################
@@ -95,14 +95,14 @@ brew 'ec2-api-tools'
 ##########################################################################################
 ### Coding: Libraries & Utilities
 ##########################################################################################
-brew 'cereal'
-brew 'mono'
-brew 'tailor'
+#brew 'cereal'
+#brew 'mono'
+#brew 'tailor'
 
 ##########################################################################################
 ### Coding: User Interaction
 ##########################################################################################
-brew 'dialog'
+#brew 'dialog'
 
 
 ##########################################################################################
@@ -117,7 +117,7 @@ brew 'pig'
 ### Digital Forensics
 ##########################################################################################
 #brew 'autopsy'
-brew 'sleuthkit', args: ['with-afflib', 'with-jni', 'with-libewf']
+#brew 'sleuthkit', args: ['with-afflib', 'with-jni', 'with-libewf']
 
 ##########################################################################################
 ### Document Layout
@@ -135,7 +135,7 @@ brew 'shared-mime-info'
 ##########################################################################################
 ### Download Utilities
 ##########################################################################################
-brew 'curl'
+#brew 'curl'
 brew 'lrzsz'
 brew 'wget'
 brew 'youtube-dl'
@@ -155,32 +155,32 @@ brew 'ebook-tools'
 ##########################################################################################
 ### File Management
 ##########################################################################################
-brew 'detox'
-brew 'di'
-brew 'par2'
-brew 'pigz'
-brew 'unrar'
-brew 'rename'
-brew 'snappy'
-brew 'gzip'
-brew 'unzip'
-brew 'tag'
-brew 'trash'
+#brew 'detox'
+#brew 'di'
+#brew 'par2'
+#brew 'pigz'
+#brew 'unrar'
+#brew 'rename'
+#brew 'snappy'
+#brew 'gzip'
+#brew 'unzip'
+#brew 'tag'
+#brew 'trash'
 
 ##########################################################################################
 ### File System Navigation
 ##########################################################################################
-brew 'apparix'
-brew 'fasd'
-brew 'midnight-commander'
-brew 'ranger'
-brew 'tree'
+#brew 'apparix'
+#brew 'fasd'
+#brew 'midnight-commander'
+#brew 'ranger'
+#brew 'tree'
 
 ##########################################################################################
 ### Finder Utilities
 ##########################################################################################
 ## Screen Saver
-brew 'cmatrix'
+#brew 'cmatrix'
 
 ##########################################################################################
 ### FUSE File Systems
@@ -190,12 +190,12 @@ brew 'cmatrix'
 ##########################################################################################
 ### Images
 ##########################################################################################
-brew 'jpeg'
-brew 'mjpegtools'
-brew 'imagemagick'
-brew 'imagesnap'
-brew 'gd'
-brew 'webp'
+#brew 'jpeg'
+#brew 'mjpegtools'
+#brew 'imagemagick'
+#brew 'imagesnap'
+#brew 'gd'
+#brew 'webp'
 
 ##########################################################################################
 ### Mac Admin Stuff
@@ -215,68 +215,67 @@ brew 'wxmac'
 ### Network Utilities
 ##########################################################################################
 ## Generic
-brew 'arping'
-brew 'c-ares'
-brew 'cdpr'
-brew 'fping'
-brew 'geoip', args: ['with-geoipupdate']
-brew 'goaccess', args: ['with-geoip']
-brew 'hping'
-brew 'ipcalc'
-brew 'iperf'
-brew 'iperf3'
-brew 'mrtg'
-brew 'mtr', args: ['with-glib', 'with-gtk+']
-brew 'netcat'
-brew 'netperf'
-brew 'ngrep'
-brew 'sip'
-brew 'sipcalc'
-brew 'socat'
-brew 'speedtest_cli'
-brew 'tcpflow'
-brew 'tcping'
-brew 'whatmask'
-brew 'wireshark'
-brew 'trafshow'
+#brew 'arping'
+#brew 'c-ares'
+#brew 'cdpr'
+#brew 'fping'
+#brew 'geoip', args: ['with-geoipupdate']
+#brew 'goaccess', args: ['with-geoip']
+#brew 'hping'
+#brew 'ipcalc'
+#brew 'iperf'
+#brew 'iperf3'
+#brew 'mrtg'
+#brew 'mtr', args: ['with-glib', 'with-gtk+']
+#brew 'netcat'
+#brew 'netperf'
+#brew 'ngrep'
+#brew 'sip'
+#brew 'sipcalc'
+#brew 'socat'
+#brew 'speedtest_cli'
+#brew 'tcpflow'
+#brew 'tcping'
+#brew 'whatmask'
+#brew 'wireshark'
+#brew 'trafshow'
 ## Ethernet
 ## Wi-Fi
 
 ##########################################################################################
 ### Process Communication, Management, & Scheduling
 ##########################################################################################
-brew 'aurora-cli'
-brew 'd-bus'
-brew 'dbus'
-brew 'fswatch'
-brew 'pstree'
-brew 'watch'
+#brew 'aurora-cli'
+#brew 'd-bus'
+#brew 'dbus'
+#brew 'fswatch'
+#brew 'pstree'
+#brew 'watch'
 
 
 ##########################################################################################
 ### Remote Access
 ##########################################################################################
-brew 'autossh'
-brew 'csshx'
-brew 'shmux'
-brew 'openssh'
-brew 'stormssh'
-brew 'stunnel'
+# 'autossh'
+#brew 'csshx'
+#brew 'shmux'
+#brew 'openssh'
+#brew 'stormssh'
+#brew 'stunnel'
 
 ##########################################################################################
 ### Security
 ##########################################################################################
-brew 'openssl'
+#brew 'openssl'
 #brew 'apg'
-brew 'chkrootkit'
-brew 'dirmngr'
-brew 'gpg-agent'
-brew 'keychain'
-brew 'jailkit'
-brew 'libgcrypt'
-brew 'pdfcrack'
-brew 'pwgen'
-brew 'sslscan'
+#brew 'dirmngr'
+#brew 'gpg-agent'
+#brew 'keychain'
+#brew 'jailkit'
+#brew 'libgcrypt'
+#brew 'pdfcrack'
+#brew 'pwgen'
+#brew 'sslscan'
 
 ##########################################################################################
 ### Shells & Terminal Emulators
@@ -309,13 +308,13 @@ brew 'tldr'
 ##########################################################################################
 ### Sync & Remote File Access
 ##########################################################################################
-brew 'duck'
+#brew 'duck'
 
 ##########################################################################################
 ### Text Editors
 ##########################################################################################
-brew 'emacs', args: ['with-cocoa', 'with-gnutls']
-brew 'bbcolors'
+#brew 'emacs', args: ['with-cocoa', 'with-gnutls']
+#brew 'bbcolors'
 
 ##########################################################################################
 ### Text Processing
@@ -343,8 +342,8 @@ brew 'rtf2latex2e'
 ### tmux & x11 utilities
 ##########################################################################################
 brew 'tmux'
-brew 'clipper'
-brew 'wemux'
+#brew 'clipper'
+#brew 'wemux'
 
 ##########################################################################################
 ### Website Design
@@ -355,7 +354,7 @@ brew 'wemux'
 ##########################################################################################
 brew 'debianutils'
 brew 'moreutils'
-brew 'plan9port'
+#brew 'plan9port'
 #GNU
 brew 'findutils'
 brew 'gawk'
