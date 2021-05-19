@@ -1,13 +1,20 @@
 # macOS.config
-How I configure new macOS workstations...
+How I configure new macOS workstations.
+
+Since my work computers are also managed by an MDM (Jamf Pro), not all steps are applicable on such machines and there are different load sets for each. 
 
 ## Initial System Configuration
 * Enable FileVault
-    * Do not escrow key with iCloud
-    * Save Key to 1Password
+	* Work
+		* Enable per employer policy.
+	* Home
+	    * Do not escrow key with iCloud
+	    * Save Key to 1Password
 * Enable iCloud
-* Enable Document & Data Sync
+	* Enable Document & Data Sync
 * Log into MAS
+
+
 * Install Xcode from MAS
 * Install the latest [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 

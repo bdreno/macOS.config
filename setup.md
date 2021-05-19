@@ -3,6 +3,8 @@
 
 ##Brewfile Setup
 
+brew leaves
+
 ###MAS Applications
 
 The command below, while not elegant, generates the mas commands that can be pasted directly into a Brewfile:
