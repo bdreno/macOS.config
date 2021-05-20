@@ -1,0 +1,444 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_sudoers: no
+configure_terminal: yes
+configure_osx: yes
+
+configure_dotfiles: yes
+dotfiles_repo: https://github.com/bdreno/dotfiles.git
+dotfiles_repo_version: master
+dotfiles_repo_local_destination: ~/Programming/Projects/dotfiles
+dotfiles_home: "~"
+dotfiles_files:
+  - .zshrc
+  - .zshenv
+  - .zshrc
+  - .zlogin
+  - .zlogout
+  - .profile
+  - .inputrc
+  - .osx
+  - .osx.sudo
+
+
+#  
+#  - .gitignore
+#  - .vimrc
+
+
+
+homebrew_installed_packages:
+  - ansible-lint
+  - antigen
+  - aterm
+  - autoconf
+  - awscli
+  - bash-completion
+  - bgrep
+  - bison
+  - cheat
+  - coreutils
+  - cowsay
+  - debianutils
+  - direnv
+  - docker-machine-parallels
+  - doctl
+  - doxygen
+  - ebook-tools
+  - ec2-api-tools
+  - elixir
+  - exiftool
+  - expat
+  - faas-cli
+  - fabric
+  - figlet
+  - findutils
+  - fish
+  - gettext
+  - gifsicle
+  - git
+  - git-flow
+  - git-lfs
+  - git-secret
+  - go
+  - googler
+  - gpg
+  - gradle
+  - grc
+  - grep
+  - groff
+  - groovy
+  - gws
+  - helm
+  - httpie
+  - hub
+  - internetarchive
+  - intltool
+  - iperf
+  - jq
+  - kubernetes-cli
+  - kubernetes-service-catalog-client
+  - latex2rtf
+  - latexml
+  - less
+  - libevent
+  - libpcap
+  - libreadline-java
+  - libxml2
+  - lrzsz
+  - lua
+  - luarocks
+  - man2html
+  - mas
+  - mcrypt
+  - moreutils
+  - mosh
+  - nmap
+  - nnn
+  - node
+  - nvm
+  - openblas
+  - openconnect
+  - openssl
+  - osxutils
+  - pandoc
+  - pango
+  - php
+  - pig
+  - pkg-config
+  - pre-commit
+  - pv
+  - pyenv-virtualenv
+  - rbenv
+  - readline
+  - rtf2latex2e
+  - ruby
+  - saml2aws
+  - saxon
+  - sfk
+  - shared-mime-info
+  - shellcheck
+  - shtool
+  - sleepwatcher
+  - slrn
+  - slugify
+  - socat
+  - spark
+  - sqlite
+  - ssh-copy-id
+  - svn
+  - telnet
+  - texi2html
+  - thefuck
+  - tin
+  - tldr
+  - tmux
+  - tomanthony/brews/itermocil
+  - tree
+  - vagrant-completion
+  - versent/taps/saml2aws
+  - wget
+  - with-readline
+  - wrk
+  - xml-coreutils
+  - youtube-dl
+  - z
+  - zsh
+  - zsh-autosuggestions
+  - zsh-completions
+  - zsh-git-prompt
+  - zsh-history-substring-search
+  - zsh-lovers
+  - zsh-navigation-tools
+  - zsh-syntax-highlighting
+  - multitail
+  - mtr
+  - ffmpeg
+  - netcat
+  - ngrep
+  - abcde
+  - siege
+  - micro
+  - byobu
+
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-drivers
+  - versent/homebrew-taps
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - a-better-finder-attributes
+  - AdoptOpenJDK
+  - airfoil
+  - alacritty
+  - alfred
+  - apache-directory-studio
+  - autopkgr
+  - balenaetcher
+  - bartender
+  - bbedit
+  - blu-ray-player
+  - boom-3d
+  - brave-browser
+  - brother-p-touch-update-software
+  - caffeine
+  - calibre
+  - camo-studio
+  - corretto
+  - crossover
+  - dbeaver-community  
+  - devonagent
+  - devonthink
+  - discord
+  - docker
+  - downie
+  - elgato-control-center
+  - elgato-game-capture-hd
+  - elgato-stream-deck
+  - elmedia-player
+  - emailchemy
+  - fake
+  - firefox
+  - fontbase
+  - geekbench
+  - geektool
+  - gemini
+  - gimp
+  - gitkraken
+  - handbrake
+  - hazel
+  - homebrew/cask-fonts/font-ibm-plex
+  - homebrew/cask-fonts/font-ibm-plex-mono
+  - homebrew/cask-fonts/font-ibm-plex-sans
+  - homebrew/cask-fonts/font-ibm-plex-sans-condensed
+  - homebrew/cask-fonts/font-ibm-plex-serif
+  - houdahspot
+  - icab
+  - iterm2
+  - keyboard-maestro
+  - keycue
+  - licecap
+  - lingon-x
+  - little-snitch
+  - macpar-deluxe
+  - mactex
+  - macvim
+  - macx-dvd-ripper-pro
+  - marble
+  - marked
+  - metaz
+  - microsoft-edge
+  - microsoft-office
+  - microsoft-teams
+  - monodraw
+  - murus
+  - murus-menulet
+  - muruslogsvisualizer
+  - netnewswire
+  - netspot
+  - nvalt
+  - obsidian
+  - omnidisksweeper
+  - omnifocus
+  - omnigraffle
+  - omnioutliner
+  - omnipresence
+  - openemu
+  - packages
+  - parallels
+  - parallels-toolbox
+  - parallels-virtualization-sdk
+  - pdfpenpro
+  - permute
+  - platypus
+  - plex
+  - plex-media-player
+  - plexamp
+  - popchar
+  - pppc-utility
+  - qlcolorcode
+  - qlimagesize
+  - qlmarkdown
+  - qlprettypatch
+  - qlstephen
+  - quicklook-csv
+  - quicklook-json
+  - r
+  - raspberry-pi-imager
+  - rstudio
+  - scapple
+  - script-debugger
+  - scrivener
+  - sequel-pro
+  - signal
+  - skitch
+  - Soulver
+  - spideroakone
+  - steam
+  - suspicious-package
+  - textbuddy
+  - textexpander
+  - tor-browser
+  - ultimaker-cura
+  - vagrant
+  - vallum
+  - veracrypt
+  - virtualbox
+  - virtualbox-extension-pack
+  - vlc
+  - vmware-horizon-client
+  - wireshark
+  - wwdc
+  - xld
+  - xmind
+  - xquartz
+  - yed
+  - yubico-yubikey-manager
+  - yubico-yubikey-personalization-gui
+  - yubico-yubikey-piv-manager
+  - xnconvert
+
+  
+#   - dropzone
+#   - omniplan
+#   - macupdater
+#   - pacifist
+#   - wineskin-winery
+
+
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: 
+  - { id: 1037126344, name: "Apple Configurator 2" }
+  - { id: 1099568401, name: "Home Assistan" }
+  - { id: 1365531024, name: "1Blocker" }
+  - { id: 1133234759, name: "MUT" }
+  - { id: 1166066070, name: "Bumpr" }
+  - { id: 1193539993, name: "Brother iPrint&Scan" }
+  - { id: 1252988123, name: "RegEx Lab" }
+  - { id: 1274495053, name: "Microsoft To Do" }
+  - { id: 1303222628, name: "Paprika Recipe Manager 3" }
+  - { id: 1354318707, name: "Core Tunnel" }
+  - { id: 1364038646, name: "Right Click" }
+  - { id: 1365531024, name: "1Blocker" }
+  - { id: 1376402589, name: "StopTheMadness" }
+  - { id: 1377973524, name: "Sandkorn" }
+  - { id: 1435957248, name: "Drafts" }
+  - { id: 1437681957, name: "Audiobook Builder" }
+  - { id: 1438113612, name: "Max Inspec" }
+  - { id: 1444383602, name: "GoodNotes" }
+  - { id: 1450874784, name: "Transporter" }
+  - { id: 1451893560, name: "Rakuten Cash Back" }
+  - { id: 1472432422, name: "Wayback Machine" }
+  - { id: 1472777122, name: "Honey" }
+  - { id: 1482920575, name: "DuckDuckGo Privacy Essentials" }
+  - { id: 1511343960, name: "Collected" }
+  - { id: 1514164630, name: "Minimal Consen" }
+  - { id: 1529448980, name: "Reeder" }
+  - { id: 360593530, name: "Notability" }
+  - { id: 402456742, name: "Ember" }
+  - { id: 403388562, name: "Transmi" }
+  - { id: 405399194, name: "Kindle" }
+  - { id: 407963104, name: "Pixelmator" }
+  - { id: 408981434, name: "iMovie" }
+  - { id: 409183694, name: "Keynote" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409907375, name: "Remote Desktop" }
+  - { id: 411673888, name: "EasyFind" }
+  - { id: 413564952, name: "Home Inventory" }
+  - { id: 417375580, name: "BetterSnapTool" }
+  - { id: 419332741, name: "XMenu" }
+  - { id: 421879749, name: "Rested" }
+  - { id: 424389933, name: "Final Cut Pro" }
+  - { id: 424390742, name: "Compressor" }
+  - { id: 425424353, name: "The Unarchiver" }
+  - { id: 425955336, name: "Skitch" }
+  - { id: 429353921, name: "Audit Explorer" }
+  - { id: 429449079, name: "Patterns" }
+  - { id: 434290957, name: "Motion" }
+  - { id: 441258766, name: "Magne" }
+  - { id: 442168834, name: "SiteSucker" }
+  - { id: 445189367, name: "PopClip" }
+  - { id: 447313635, name: "PhotoStickies" }
+  - { id: 453114608, name: "JSON Helper" }
+  - { id: 465339122, name: "MoneyWiz" }
+  - { id: 470158793, name: "Keka" }
+  - { id: 490152466, name: "iBooks Author" }
+  - { id: 494803304, name: "WiFi Explorer" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 498672703, name: "Droplr" }
+  - { id: 510620098, name: "MediaInfo" }
+  - { id: 527618971, name: "Pixa" }
+  - { id: 568196938, name: "Baldur's Gate: Enhanced Edition" }
+  - { id: 572280828, name: "MacFamilyTree 7" }
+  - { id: 572281534, name: "Transloader" }
+  - { id: 640199958, name: "Developer" }
+  - { id: 682658836, name: "GarageBand" }
+  - { id: 689859502, name: "Push Diagnostics" }
+  - { id: 717126567, name: "File Info Professional" }
+  - { id: 717779245, name: "Geohopper" }
+  - { id: 720669838, name: "iThoughtsX" }
+  - { id: 720669838, name: "iThoughtsX" }
+  - { id: 728530824, name: "SubEthaEdi" }
+  - { id: 746413884, name: "Baldur's Gate II: Enhanced Edition" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 877848776, name: "Pathology" }
+  - { id: 883905375, name: "Path Launcher" }
+  - { id: 896146364, name: "Nex" }
+  - { id: 899970159, name: "CalcService" }
+  - { id: 899972312, name: "WordService" }
+  - { id: 905384638, name: "FileBo" }
+  - { id: 914295481, name: "RB App Quarantine" }
+  - { id: 916377538, name: "Contacts Journal" }
+  - { id: 918858936, name: "Airmail" }
+  - { id: 919269455, name: "StuffIt Expander" }
+  - { id: 922765270, name: "LiquidTex" }
+  - { id: 924726344, name: "Deliveries" }
+  - { id: 935235287, name: "Encrypto" }
+  - { id: 946833065, name: "Records" }
+  - { id: 953006734, name: "com.satishmaha.Shinjuku" }
+  - { id: 953286746, name: "Darkroom" }
+  - { id: 975937182, name: "Fantastical" }
+  - { id: 985614903, name: "SQLPro Studio" }
+  - { id: 991305155, name: "PGPTools" }
+mas_email: ""
+mas_password: ""
+
+#  - { id: 497799835, name: "Xcode" }
+#  - { id: 1077036385, name: "com.inovize.fluid" }
+#  - { id: 948415170, name: "Pushbulle" }
+#  - { id: 556464792, name: "App Factory" }
+#  - { id: 655527594, name: "Oyster" }
+
+
+
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages: []
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
